@@ -2,25 +2,25 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 class Translation(object):
 
-    START_TEXT = """Hello {},
+    START_TEXT = """Hello user {},
 
 I Am Telegram URL Uploader Bot.
 
-<b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
+<b>Please send me any direct download URL Link, I can upload to telegram as File/Video based on your choice</b>
 
 <b>/help for more details...</b>"""
 
     ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = "<b> 👉 Create own Clone Bot Check Source /about</b>"
+    UPGRADE_TEXT = "<b> 👉 Create own Clone Bot contact me for source code /about</b>"
     FORMAT_SELECTION = "Set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\n\nYou can use /deletethumbnail to delete the auto-generated thumbnail\n"
-    SET_CUSTOM_USERNAME_PASSWORD = """<b>👮‍♂ Powered By :</b> @LISA_FAN_LK"""
+    SET_CUSTOM_USERNAME_PASSWORD = """<b>👮‍♂ Powered By :</b> @gladson1"""
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     DOWNLOAD_START = "📥 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶"
     UPLOAD_START = "📤 𝚄𝙿𝙻𝙾𝙰𝙳𝙸𝙽𝙶"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDe tected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
-    #AFTER_SUCCESSFUL_UPLOAD_MSG = " OWNER : Lisa 💕\nFor the List of Telegram Bots"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = """𝘛𝘏𝘈𝘕𝘒𝘚 𝘍𝘖𝘙 𝘜𝘚𝘐𝘕𝘎 𝘔𝘌 🥰\n\n@NT_BOT_CHANNEL"""
+    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
+    #AFTER_SUCCESSFUL_UPLOAD_MSG = " OWNER : Gemechis Chala 💕\nFor the List of Telegram Bots"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = """𝘛𝘏𝘈𝘕𝘒𝘚 𝘍𝘖𝘙 𝘜𝘚𝘐𝘕𝘎 𝘔𝘌 🥰\n\n@maalgaariin"""
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
     SAVED_CUSTOM_THUMB_NAIL = "Save Your Thumbnail ✅"
@@ -33,13 +33,13 @@ I Am Telegram URL Uploader Bot.
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     CURENT_ABOUT_DETAILS = """<b>🔘 My Name :</b> URL Uploader Bot
 
-<b>🔘 Source :</b> <a href="https://github.com/LISA-KOREA/UPLOADER-BOT-V2">Click</a>
+<b>🔘 Source :</b> <a href="https://t.me/gladson1">Contact me</a>
 
 <b>🔘 Language :</b> <a href="https://www.python.org/">Python 3.10.8</a>
 
 <b>🔘 Framework :</b> <a href="https://docs.pyrogram.org/">Pyrogram 1.4.16</a>
 
-<b>🔘 Creater :</b> @LISA_FAN_LK"""
+<b>🔘 Creater :</b> @gladson1"""
 
     HELP_USER = """𒊹︎︎︎ HOW TO UPLOAD FILE OR MEDIA
     
@@ -55,7 +55,7 @@ I Am Telegram URL Uploader Bot.
 
 𒊹︎︎︎ COMMENTS
 
-/help - how to use this bot 
+/help - how to use this bot or show this message 
 
 /upgrade - view offers
 
@@ -83,7 +83,7 @@ I Am Telegram URL Uploader Bot.
 🌸 Status : <b>{}</b>
 """
 
-    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @NT_BOT_ADMIN"
+    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @maalgaariin"
     FF_MPEG_RO_BOT_RE_SURRECT_ED = """Syntax: /trim HH:MM:SS [HH:MM:SS]"""
     FF_MPEG_RO_BOT_STEP_TWO_TO_ONE = "First send /downloadmedia to any media so that it can be downloaded to my local. \nSend /storageinfo to know the media, that is currently downloaded."
     FF_MPEG_RO_BOT_STOR_AGE_INFO = "Video Duration: {}\nSend /clearffmpegmedia to delete this media, from my storage.\nSend /trim HH:MM:SS [HH:MM:SS] to cu[l]t a small photo / video, from the above media."
